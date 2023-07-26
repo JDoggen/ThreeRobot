@@ -2,8 +2,9 @@
     "compilerOptions": {
         "target": "ES2019",
         "module": "commonjs",
-        "outDir": "../../dist/server",
-        "esModuleInterop": true
+        "outDir": "../../dist/",
+        "esModuleInterop": true,
+        "skipLibCheck": true
     },
-    "include": ["**/*.ts"]
+    "include": ["**/*.ts", "../typings/**/*.ts"],
 }

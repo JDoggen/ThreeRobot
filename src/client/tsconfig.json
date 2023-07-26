@@ -5,5 +5,5 @@
         "strict": true,
         "allowSyntheticDefaultImports": true
     },
-    "include": ["**/*.ts"]
+    "include": ["**/*.ts", "../typings/**/*.ts"]
 }
